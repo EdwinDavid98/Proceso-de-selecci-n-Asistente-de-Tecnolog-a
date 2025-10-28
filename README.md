@@ -26,6 +26,8 @@ ejecute **diariamente a las 07:00** y cumpla las siguientes acciones:
 -   **Hora de ejecución:** 07:00 (hora local)
 -   **Objetivo:** Programar el inicio automático del flujo cada mañana.
 
+
+
 > 💡 *Permite garantizar la ejecución diaria sin intervención humana.*
 
 ------------------------------------------------------------------------
@@ -110,6 +112,7 @@ Condición: dayOfWeek(utcNow()) = 1 ?
       ├── True → Enviar correo "Resumen semanal iniciado"
       └── False → (sin acción)
 ```
+<img width="1407" height="910" alt="image" src="https://github.com/user-attachments/assets/1d22f675-1554-4619-b1c7-a99fcb1ccf3f" />
 
 ------------------------------------------------------------------------
 
