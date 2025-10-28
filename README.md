@@ -110,6 +110,8 @@ Condición: dayOfWeek(utcNow()) = 1 ?
 
 -   Teams recibe un mensaje diario con fecha y hora de ejecución.\
 -   SharePoint guarda automáticamente un nuevo registro con: \|
-    FechaEjecucion \| Estado \| \|----------------\|--------\| \|
-    2025-10-28T07:00:00Z \| OK \|
--   Cada lunes se envía un correo confirmando el inicio de la semana.
+  
+| FechaEjecucion       | Estado |
+| -------------------- | ------ |
+| 2025-10-28T07:00:00Z | OK     |
+
