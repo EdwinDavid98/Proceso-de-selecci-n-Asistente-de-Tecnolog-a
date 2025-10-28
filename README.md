@@ -55,8 +55,12 @@ ejecute **diariamente a las 07:00** y cumpla las siguientes acciones:
 -   **Dirección del sitio:**\
     `https://<organización>.sharepoint.com/sites/ControldeIntegraciones`
 -   **Lista:** `ControlIntegraciones`
--   **Campos:** \| Campo \| Valor \| \|--------\|--------\| \|
-    `FechaEjecucion` \| `@{utcNow()}` \| \| `Estado` \| `OK` \|
+-   **Campos:**
+| Campo            | Valor         |
+| ---------------- | ------------- |
+| `FechaEjecucion` | `@{utcNow()}` |
+| `Estado`         | `OK`          |
+
 
 > 📊 *Este registro sirve como bitácora automatizada de ejecución
 > diaria.*
