@@ -76,9 +76,13 @@ df['net_usd'] = df.apply(lambda x: x['net_amount'] * fx_to_usd.get(x['currency']
 df['tax_usd'] = df.apply(lambda x: x['tax_amount'] * fx_to_usd.get(x['currency'], 1), axis=1)
 df['total_usd'] = df['net_usd'] + df['tax_usd']
 ```
+| nvoice_id | entity | country  | issue_date | currency | net_amount | tax_amount | net_usd | tax_usd | total_usd |
+| --------- | ------ | -------- | ---------- | -------- | ---------- | ---------- | ------- | ------- | --------- |
+| 1         | E001   | ECUADOR  | 2024-05-03 | USD      | 1000       | 120        | 1000.0  | 120.0   | 1120.0    |
+| 2         | E002   | COLOMBIA | 2024-05-04 | COP      | 2500000    | 475000     | 650.0   | 123.5   | 773.5     |
+| 3         | E003   | PERU     | 2024-05-05 | PEN      | 3500       | 630        | 945.0   | 170.1   | 1115.1    |
+| 4         | E001   | ECUADOR  | 2024-05-06 | USD      | 800        | 96         | 800.0   | 96.0    | 896.0     |
 
-> 💱 Conversión automática de cada registro a dólares según su moneda
-> local.
 
 ------------------------------------------------------------------------
 
@@ -91,6 +95,12 @@ resumen = df.groupby('country')[['net_usd', 'tax_usd', 'total_usd']].sum().reset
 resumen.to_csv("resumen_pais.csv", index=False)
 print("Archivo 'resumen_pais.csv' generado exitosamente.")
 ```
+
+| country   | net_usd | tax_usd | total_usd |
+|------------|----------|----------|-----------|
+| COLOMBIA  | 650.0 | 123.5 | 773.5 |
+| ECUADOR   | 1800.0 | 216.0 | 2016.0 |
+| PERU      | 945.0 | 170.1 | 1115.1 |
 
 ------------------------------------------------------------------------
 
