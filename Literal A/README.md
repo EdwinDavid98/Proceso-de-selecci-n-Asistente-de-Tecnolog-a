@@ -57,8 +57,14 @@ df['country'] = df['country'].str.strip().str.upper()
 df['currency'] = df['currency'].str.strip().str.upper()
 ```
 
-> ✨ Estandarización de nombres y normalización de texto para evitar
-> inconsistencias.
+
+
+| nvoice_id | entity | country  | issue_date | currency | net_amount | tax_amount |
+|------------|---------|-----------|-------------|-----------|-------------|-------------|
+| 1 | E001 | ECUADOR  | 2024-05-03 | USD | 1000 | 120 |
+| 2 | E002 | COLOMBIA | 2024-05-04 | COP | 2500000 | 475000 |
+| 3 | E003 | PERU     | 2024-05-05 | PEN | 3500 | 630 |
+| 4 | E001 | ECUADOR  | 2024-05-06 | USD | 800 | 96 |
 
 ------------------------------------------------------------------------
 
