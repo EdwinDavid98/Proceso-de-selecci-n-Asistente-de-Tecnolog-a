@@ -130,7 +130,9 @@ Condición: dayOfWeek(utcNow()) = 1 ?
 
 ## Resultado teams
 <img width="1402" height="915" alt="image" src="https://github.com/user-attachments/assets/b5792ec0-db11-4c5b-bd51-3b1c3e7c2783" />
+
 ## Resultado SharePoint
+
 <img width="1400" height="914" alt="image" src="https://github.com/user-attachments/assets/a7f78812-52b6-427f-9f29-7b890fa6f1e0" />
 
 
