@@ -81,10 +81,12 @@ ejecute **diariamente a las 07:00** y cumpla las siguientes acciones:
 
 -   **Acción:** `Outlook → Enviar un correo electrónico (V2)`
 -   **Condición:** Rama **True** de la expresión anterior.
--   **Detalles:** \| Campo \| Valor \| \|--------\|--------\| \|
-    **Para:** \| `emontenegrob@alumni.usfq.edu.ec` \| \| **Asunto:** \|
-    `Resumen semanal iniciado` \| \| **Cuerpo:** \|
-    `html     <p>Se inicia el proceso de consolidación semanal.</p>     <p>Fecha de inicio: @{formatDateTime(utcNow(),'yyyy-MM-dd HH:mm:ss')} UTC</p>`
+-   **Detalles:
+- | Campo       | Valor                             |
+| ----------- | --------------------------------- |
+| **Para:**   | `emontenegrob@alumni.usfq.edu.ec` |
+| **Asunto:** | `Resumen semanal iniciado`        |
+| **Cuerpo:** |                                   |
 
 > 📧 *Activa una notificación automatizada de apertura de semana.*
 
