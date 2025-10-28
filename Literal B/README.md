@@ -123,9 +123,11 @@ GROUP BY p.PaisNombre;
 CREATE INDEX idx_fecha_ventas ON Ventas(Fecha);
 ```
 
-**Resultado:**
-```
-Índice creado correctamente en columna Fecha.
-```
+# **Resultado:**
 
-> 🧠 Este índice optimiza las consultas con filtros temporales o de rango (`WHERE Fecha BETWEEN ...`), mejorando la eficiencia de búsqueda.
+<img width="1353" height="941" alt="image" src="https://github.com/user-attachments/assets/237470f9-e850-461d-aa8c-caf5cdf489a6" />
+
+
+<img width="1359" height="940" alt="image" src="https://github.com/user-attachments/assets/6a47b595-a56a-49d8-8ad3-40e1753755ca" />
+
+
