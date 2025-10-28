@@ -11,8 +11,10 @@ y las explicaciones del proceso desarrollado.
 
 ---
 
+
 ## 🗂️ Estructura del Repositorio
 
+´´´ text
 📁 Proyecto_Integrado/
 ├── 📁 A_Python_ETL/
 │ └── README_Python_ETL.md
@@ -22,3 +24,4 @@ y las explicaciones del proceso desarrollado.
 │
 └── 📁 C_PowerAutomate/
 └── README_PowerAutomate.md
+´´´
