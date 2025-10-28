@@ -76,6 +76,7 @@ df['net_usd'] = df.apply(lambda x: x['net_amount'] * fx_to_usd.get(x['currency']
 df['tax_usd'] = df.apply(lambda x: x['tax_amount'] * fx_to_usd.get(x['currency'], 1), axis=1)
 df['total_usd'] = df['net_usd'] + df['tax_usd']
 ```
+
 | nvoice_id | entity | country  | issue_date | currency | net_amount | tax_amount | net_usd | tax_usd | total_usd |
 | --------- | ------ | -------- | ---------- | -------- | ---------- | ---------- | ------- | ------- | --------- |
 | 1         | E001   | ECUADOR  | 2024-05-03 | USD      | 1000       | 120        | 1000.0  | 120.0   | 1120.0    |
