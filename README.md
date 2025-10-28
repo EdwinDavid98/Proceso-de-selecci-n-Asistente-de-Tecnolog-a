@@ -26,6 +26,7 @@ ejecute **diariamente a las 07:00** y cumpla las siguientes acciones:
 -   **Hora de ejecución:** 07:00 (hora local)
 -   **Objetivo:** Programar el inicio automático del flujo cada mañana.
 
+<img width="1400" height="908" alt="image" src="https://github.com/user-attachments/assets/a33600fc-6cdf-499f-98d1-a871b536bef7" />
 
 
 > 💡 *Permite garantizar la ejecución diaria sin intervención humana.*
@@ -46,8 +47,8 @@ ejecute **diariamente a las 07:00** y cumpla las siguientes acciones:
 
 -   **Destino:** Canal de notificaciones del equipo.
 
-> 💬 *Proporciona trazabilidad inmediata del flujo a todos los miembros
-> del equipo.*
+<img width="1408" height="913" alt="image" src="https://github.com/user-attachments/assets/f0b26e4e-f2b8-4372-9ab6-61638f9d3967" />
+
 
 ------------------------------------------------------------------------
 
@@ -64,8 +65,8 @@ ejecute **diariamente a las 07:00** y cumpla las siguientes acciones:
 | `Estado`         | `OK`          |
 
 
-> 📊 *Este registro sirve como bitácora automatizada de ejecución
-> diaria.*
+<img width="1403" height="907" alt="image" src="https://github.com/user-attachments/assets/464add29-aa68-4b29-9391-c3df1b2cc7e9" />
+
 
 ------------------------------------------------------------------------
 
@@ -80,6 +81,7 @@ ejecute **diariamente a las 07:00** y cumpla las siguientes acciones:
     *(0 = domingo, 1 = lunes, 2 = martes, etc.)*
 
 > 🔎 *Evalúa el número del día actual en formato UTC.*
+<img width="1410" height="908" alt="image" src="https://github.com/user-attachments/assets/5fe80cc4-b4cb-49e4-a6e1-285b4a806777" />
 
 ------------------------------------------------------------------------
 
@@ -95,7 +97,8 @@ ejecute **diariamente a las 07:00** y cumpla las siguientes acciones:
 | **Asunto:** | `Resumen semanal iniciado`        |
 | **Cuerpo:** |                                   |
 
-> 📧 *Activa una notificación automatizada de apertura de semana.*
+<img width="1408" height="907" alt="image" src="https://github.com/user-attachments/assets/ffb75628-55b3-4b02-affc-f8e5d2c3ef84" />
+
 
 ------------------------------------------------------------------------
 
@@ -124,4 +127,11 @@ Condición: dayOfWeek(utcNow()) = 1 ?
 | FechaEjecucion       | Estado |
 | -------------------- | ------ |
 | 2025-10-28T07:00:00Z | OK     |
+
+## Resultado teams
+<img width="1402" height="915" alt="image" src="https://github.com/user-attachments/assets/b5792ec0-db11-4c5b-bd51-3b1c3e7c2783" />
+## Resultado SharePoint
+<img width="1400" height="914" alt="image" src="https://github.com/user-attachments/assets/a7f78812-52b6-427f-9f29-7b890fa6f1e0" />
+
+
 
